@@ -1,10 +1,18 @@
 function agregarItem() {
+    let limite = document.getElementsByClassName("Input")
+    let elementos= [];
+    console.log(limite)
+    for (let index = 0; index < limite.length; index++) {
+        elementos[index] = document.getElementById(index);
+        console.log(elementos)
+    }
+    
     let checkBox = document.createElement("input");
     let text = document.createElement("label");
     checkBox.type="checkbox";
-    checkBox.name="Nuevo"
-    checkBox.className="form-check"
-    
+    checkBox.name="Nuevo";
+    checkBox.className="Input";
+    checkBox.id=`${elementos.length}`;
     text.textContent=document.getElementById("Input").value;
     let t = document.createTextNode(text.value);
     checkBox.appendChild(t);
