@@ -1,0 +1,27 @@
+body {
+    background-color: #876EDC;
+    Color: #830B0B;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.incorrecto :checked{
+    text-decoration:line-through;
+    color: red;
+}
