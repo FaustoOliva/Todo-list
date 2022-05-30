@@ -21,7 +21,7 @@ label{
     justify-content: left;
 }
 
-.incorrecto :checked{
+.incorrecto{
     text-decoration:line-through;
     color: red;
 }
