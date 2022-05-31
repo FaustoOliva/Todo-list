@@ -10,20 +10,15 @@
 
 <body>
     <div class="center">
-
         <div id="myDIV" class="header">
             <h2>Mi Todo List</h2>
-            <input type="text" id="Input" placeholder="Nuevo elemento...">
-            <span onclick="agregarItem()" type="button">Agregar</span>
+            <input type="text" id="addText" placeholder="Nuevo elemento..." required>
+            <span onclick="addItem()" type="button">Agregar</span>
         </div>
-        <div class="form-check" id="form">
-            <input class="Input" type="checkbox" onclick="marcar(id)" id="0">
-            <label class="form-check-label" for="defaultCheck1" id="1">
-                Hola
-            </label>
 
+        <ul class="col text-center" id="listWorks">
 
-        </div>
+        </ul>
     </div>
 </body>
 
